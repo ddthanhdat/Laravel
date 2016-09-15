@@ -18,7 +18,6 @@ class AdminController extends Controller
 
     public function postLogin(LoginRequest $request)
     {
-        //echo $request->txtPassword;
     	$login = array(
     		'user_name' => $request->txtUsername,
     		'password' => $request->txtPassword, // must fill password field
